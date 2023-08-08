@@ -1,7 +1,7 @@
 {
   "homepage": "https://sumexxx.github.io/gsph-website",
   "name": "gsph-website",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
