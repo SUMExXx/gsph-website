@@ -13,7 +13,7 @@ function Header() {
 
         <div className='navbar-container'>
           <div className="navbar">
-            <button className="featured nav-button" >Polaroid <embed className="icon" src=".logos/Stars.svg"/></button>
+            <button className="featured nav-button" >Polaroid <embed className="icon" src="./logos/Stars.svg"/></button>
           
 
             <div className='nav-button-container'>
@@ -26,6 +26,7 @@ function Header() {
               <button className='nav-button' >Team</button>
               <div className='button-sep'></div>
               <button className='nav-button' >Contact</button>
+              <button className='options nav-button'><embed className="icon options-but" src="./logos/options.svg"></embed></button>
             </div>
 
             <a href="https://www.instagram.com/gsproductionhouse/" target="_blank" rel="noreferrer" className='social-container'><embed className='social-logo' src='../../public/logos/instagram-color.svg'></embed></a>

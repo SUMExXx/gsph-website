@@ -14,7 +14,7 @@
     right: 0%;
 
     display: flex;
-    width: 95%;
+    width: auto;
     height: 60px;
     padding: 10px 40px;
     justify-content: center;
@@ -97,8 +97,13 @@
         line-height: normal;
 } */
 
+.options{
+    display: none;
+}
+
 .featured{
     display: flex;
+    flex-direction: row;
         padding: 10px;
         justify-content: center;
         align-items: center;
@@ -160,4 +165,34 @@
 
 .facebook-color{
     height: 30px
+}
+
+
+@media screen and (max-width: 1220px) {
+    .nav-button{
+        display: none;
+    }
+
+    .button-sep{
+        display: none;
+    }
+
+    .options{
+        display: block;
+        
+       
+    }
+
+    .featured{
+        display: block;
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .featured{
+        display: none;
+    }
 }
