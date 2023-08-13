@@ -23,7 +23,7 @@
     
 
     /* background: linear-gradient(180deg, #FF00A8 0%, rgba(166, 247, 255, 0.00) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, #0FF 100%), url('../../public/img/collage.png'), lightgray 50% / cover no-repeat; */
-    background: url('../../public/img/collage.png') no-repeat;
+    background: url('../../public/img/collage.png') ;
 }
 
 .head-text-container{
@@ -64,5 +64,6 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+        margin: 1.5em;
     text-align: center;
 }

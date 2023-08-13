@@ -19,7 +19,8 @@ function Header() {
             <div className='nav-button-container'>
               <button className='nav-button' >Home</button>
               <div className='button-sep'></div>
-              <button className='nav-button' >Events</button>
+              <button className='nav-button' >Events <embed className='icon' style={{width: '16px', height: '16px'}} src='/logos/CaretDownFill.svg'></embed> </button>
+              
               <div className='button-sep'></div>
               <button className='nav-button' >Sponsors</button>
               <div className='button-sep'></div>

@@ -26,6 +26,13 @@
     background: #FF00A8;
 }
 
+/* html:not([data-scroll='200px']) {
+    .header{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+} */
+
 .club-identity{
     position: relative;
 
@@ -60,6 +67,7 @@
         align-self: stretch;
 }
 
+
 .navbar{
     display: flex;
         padding: 10px 20px;
@@ -78,7 +86,8 @@
         justify-content: center;
         align-items: center;
         gap: 10px;
-
+        height: 100%;
+        margin: auto;
     background: transparent;
     color: #FFF;
         font-family: Josefin Sans;
@@ -88,14 +97,11 @@
         line-height: normal;
 }
 
-/* .nav-button-text{
-    color: #FFF;
-        font-family: Josefin Sans;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-} */
+.nav-button:hover {
+    color: #01FEFE;
+    transition: 0.5s;
+    
+}
 
 .options{
     display: none;
@@ -117,6 +123,7 @@
             line-height: normal;
 
     border-radius: 10px;
+    border: 2px solid #FB68C9;
         background: #FB68C9;
 }
 
@@ -168,7 +175,8 @@
 }
 
 
-@media screen and (max-width: 1220px) {
+
+@media screen and (max-width: 1240px) {
     .nav-button{
         display: none;
     }
@@ -184,7 +192,7 @@
     }
 
     .featured{
-        display: block;
+        display: flex;
     }
 
     
