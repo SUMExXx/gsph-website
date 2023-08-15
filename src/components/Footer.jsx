@@ -36,28 +36,28 @@ function Footer() {
               </div>
               <div className='footer-details-div'>
                 <div className='footer-details-col'>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
+                  <a className='footer-details-link link-main'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
                 </div>
                 <div className='footer-details-col'>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
+                  <a className='footer-details-link link-main'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
                 </div>
                 <div className='footer-details-col'>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
+                  <a className='footer-details-link link-main'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
                 </div>
                 <div className='footer-details-col'>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
-                  <a>About Us</a>
+                  <a className='footer-details-link link-main'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
+                  <a className='footer-details-link'>About Us</a>
                 </div>
               </div>
             </div>

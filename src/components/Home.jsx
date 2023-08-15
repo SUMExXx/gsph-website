@@ -10,6 +10,13 @@ function Home() {
                 <h2 className="sub-text">The official Social Media and Media Production club of SGSITS</h2>
             </div>
         </div>
+        <div id='social-reach-div'>
+          <div className='social-reach-box social-react-text-div'><span className='social-reach-text'># Our Online Reach</span></div>
+          <div className='social-reach-box social-reach-insta'></div>
+          <div className='social-reach-box social-reach-youtube'></div>
+          <div className='social-reach-box social-reach-linkedin'></div>
+          <div className='social-reach-box social-reach-facebook'></div>
+        </div>
     </div>
   )
 }

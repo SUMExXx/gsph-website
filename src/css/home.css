@@ -2,6 +2,7 @@
     width: 100%;
     top: 0%;
 
+    padding-bottom: 40px;
     
     
 }
@@ -23,7 +24,7 @@
     
 
     /* background: linear-gradient(180deg, #FF00A8 0%, rgba(166, 247, 255, 0.00) 100%), linear-gradient(180deg, rgba(255, 255, 255, 0.20) 0%, #0FF 100%), url('../../public/img/collage.png'), lightgray 50% / cover no-repeat; */
-    background: url('../../public/img/collage.png') ;
+    background: url('/img/collage.png') ;
 }
 
 .head-text-container{
@@ -43,7 +44,7 @@
         font-weight: 700;
         line-height: normal;
 
-    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF,1px 1px 0 #FFF, 0px 4px 10px #FFF;;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF,1px 1px 0 #FFF, 0px 4px 10px #FFF;
 }
 
 .head-text-h1{
@@ -54,6 +55,8 @@
         font-weight: 700;
         line-height: normal;
         margin-top: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
 }
 
 .sub-text{
@@ -66,4 +69,57 @@
         line-height: normal;
         margin: 1.5em;
     text-align: center;
+}
+
+#social-reach-div{
+    display: flex;
+        
+        
+        padding: 0px 150px;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        background: #FFF;
+}
+
+.social-reach-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 233.25px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.social-reach-text{
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    font-family: 'Josefin Sans';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    color: #FFF;
+
+    text-shadow: -1px -1px 0 #FF00A8, 1px -1px 0 #FF00A8, -1px 1px 0 #FF00A8, 1px 1px 0 #FF00A8, -1px -1px 0 #FF00A8, 1px -1px 0 #FF00A8, -1px 1px 0 #FF00A8, 1px 1px 0 #FF00A8;
+}
+
+.social-reach-insta{
+    background: #DD2A7B;
+}
+
+.social-reach-youtube{
+    background: #F70000;
+}
+
+.social-reach-linkedin{
+    background: #0A66C2;
+}
+
+.social-reach-facebook{
+    background: #1773EA;
 }
