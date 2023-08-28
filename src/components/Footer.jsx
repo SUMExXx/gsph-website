@@ -7,7 +7,7 @@ function Footer() {
             <div className='locate-div'>
               <h3 className='locate-head'>GS Production House</h3>
               <div className='locate-us-div'>
-                <embed className="icon" src='/logos/GeoAltFill.svg'></embed>
+                <i className="icon bi bi-geo-alt-fill icon-y" ></i>
                 <h4 className='locate-us'>Locate Us</h4>
                 
               </div>
@@ -18,21 +18,21 @@ function Footer() {
               <h4 className='contact-head'>Contact Us</h4>
               <div className='contact-details'>
                 <div className='locate-us-div'>
-                  <embed className="icon" src='/logos/GeoAltFill.svg'></embed>
+                  <i className="icon bi bi-envelope-fill icon-y" ></i>
                   <h4 className='locate-us'>Email <span style={{color: 'white', fontWeight: '400'}}>gsproductionhouse@gmail.com</span></h4>
                   
                 </div>
                 <div className='locate-us-div'>
-                  <embed className="icon" src='/logos/GeoAltFill.svg'></embed>
+                  <i className="icon bi bi-telephone-fill icon-y" ></i>
                   <h4 className='locate-us'>Call <span style={{color: 'white', fontWeight: '400'}}>+91 89748 63731</span></h4>
                   
                 </div>
               </div>
               <div className='social-icons-footer-div'>
-                <embed className='social-icons-footer' src='/logos/Instagram.svg'/>
-                <embed className='social-icons-footer' src='/logos/Youtube.svg'/>
-                <embed className='social-icons-footer' src='/logos/Linkedin.svg'/>
-                <embed className='social-icons-footer' src='/logos/Facebook.svg'/>
+                <a href="https://www.instagram.com/gsproductionhouse/" target="_blank" rel="noreferrer" className='social-icons-footer bi bi-instagram' style={{fontSize: '30px'}}></a>
+                <a href='https://www.youtube.com/@GSProductionHouse' target="_blank" rel="noreferrer" className='social-icons-footer bi bi-youtube' style={{fontSize: '30px'}}></a>
+                <a href='https://www.linkedin.com/company/gs-production-house/' target="_blank" rel="noreferrer" className='social-icons-footer bi bi-linkedin' style={{fontSize: '30px'}}></a>
+                <a href='https://www.facebook.com/profile.php?id=100067339908578' target="_blank" rel="noreferrer" className='social-icons-footer bi bi-facebook' style={{fontSize: '30px'}}></a>
               </div>
               <div className='footer-details-div'>
                 <div className='footer-details-col'>
